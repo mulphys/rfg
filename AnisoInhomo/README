@@ -1,0 +1,30 @@
+Files in this directory:
+
+	makefile   - makefile to produce the rfgtest program
+	rfg.c      - RFG routines
+	rfg.h      - declarations and definitions used in rfg.c
+	gauss.c    - Gaussian random number generation routines used in rfg.c
+	vecalg.h   - definitions of vector operations used in rfg.c
+	random.f   - a platform-independent random number generator
+	rfgtest.f  - test program for RFG routines
+	diag.c     - routines to handle unisotropic case
+	tq*.f, tred*.f, phytag.f  - netlib routines called from diag.c
+
+On Unix: Compile the rfgtest executable with
+
+	make
+
+Follow the instructions in rfgtest.f file to run the test case.
+
+Calling Dependencies:
+
+   rfgtest.f - calls genspec, genvec, delspec from rfg.c
+   rfg.c     - calls seed, gauss, gaussn from gauss.c
+               calls SCLP VECP definitions from vecalg.h
+               calls diag, btrans from diag.c
+   gauss.c   - calls a Fortran implemented randm-function
+               from random.f (default) or calls none if seed 
+               and rnd functions are implemented inside gauss.c 
+               (see gauss.c for details)
+   diag.c    - calls netlib functions in tq*.f, tred*.f and phytag.f
+
