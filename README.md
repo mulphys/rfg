@@ -8,10 +8,10 @@
 
 ### DIRECTORIES:
 
-- [doc](doc/):                  Documentation
-- [IsoHomo](IsoHomo/):          Isotropic homogeneous field
-- [AnisoHomo](AnisoHomo/):      Anisotropic homogeneous field
-- [AnisoInhomo](AnisoInhomo/):  Anisotropic inhomogeneous field
+- [Documentation](doc/)
+- [Isotropic homogeneous field](IsoHomo/)
+- [Anisotropic homogeneous field](AnisoHomo/)
+- [Anisotropic inhomogeneous field](AnisoInhomo/)
 
 For compiling and running instructions read README files in each directory.
 
