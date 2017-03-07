@@ -1,6 +1,6 @@
 # Random Flow Generator
 
-## Author: [Andrei V Smirnov](mailto:andrei.v.smirnov@gmail.com)
+## [A.Smirnov](mailto:andrei.v.smirnov@gmail.com), [I.Celik](ismail.celik@wvu.edu), and S.Shi.
 
 ## URL: [mulphys/rfg](http://galacticbubble.com/mulphys/rfg)
 
