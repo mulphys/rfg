@@ -6,7 +6,9 @@
 
 ## Generates random vector field satisfying mass conservation (continuity) condition.
 
-![vec](vec.mpg)
+![vec](vec.gif)
+
+[Movie (mpg)](vec.mpg)
 
 ### DIRECTORIES:
 
