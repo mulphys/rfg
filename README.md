@@ -6,6 +6,8 @@
 
 ## Generates random vector field satisfying mass conservation (continuity) condition.
 
+![vec](vec.mpg)
+
 ### DIRECTORIES:
 
 - [Documentation](doc/)
@@ -15,9 +17,9 @@
 
 For compiling and running instructions read README files in each directory.
 
-### [Manual](doc/manual.pdf)
-
 ### [Method](doc/article.pdf)
+
+### [Manual](doc/manual.pdf)
 
 ### Reference
 
